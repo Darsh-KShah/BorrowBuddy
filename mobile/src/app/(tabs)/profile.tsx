@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useAuth } from '../../context/AuthContext';
 import { useTheme } from '../../context/ThemeContext';
 import { listingApi, transactionApi, type Transaction } from '../../lib/api';
-import type { Listing } from '../../data/listings';
+import type { Listing } from '../../types/listing';
 
 export default function ProfileScreen() {
   const { user, loading: authLoading, signOut } = useAuth();

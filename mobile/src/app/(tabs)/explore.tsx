@@ -12,7 +12,7 @@ import {
   View,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import type { Listing } from '../../data/listings';
+import type { Listing } from '../../types/listing';
 import { listingApi } from '../../lib/api';
 import { useTheme } from '../../context/ThemeContext';
 

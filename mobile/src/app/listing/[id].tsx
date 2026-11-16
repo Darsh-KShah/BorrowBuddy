@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import type { Listing } from '../../data/listings';
+import type { Listing } from '../../types/listing';
 import { listingApi, transactionApi } from '../../lib/api';
 import { useTheme } from '../../context/ThemeContext';
 

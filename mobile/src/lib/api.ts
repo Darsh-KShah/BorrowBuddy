@@ -1,5 +1,5 @@
 import * as SecureStore from 'expo-secure-store';
-import type { Listing } from '../data/listings';
+import type { Listing } from '../types/listing';
 
 const API_URL = process.env.EXPO_PUBLIC_API_URL;
 if (!API_URL) {
