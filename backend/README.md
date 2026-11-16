@@ -33,7 +33,8 @@ testing or configure a deliberate production network boundary.
 
 Implemented core routes include registration/login/refresh/logout/me, public listing
 browse/details, listing creation/edit/deactivation, signed upload authorization, sale
-and free-borrow requests, guarded approval/rejection/withdrawal, pre-handover
-cancellation, two-sided handover/receipt/return actions, notifications, and inclusive
-date validation. Paid fee negotiation and provider payment adapter execution remain
-pending provider onboarding; reviews/reports/admin remain pending.
+and free-borrow requests, guarded approval/rejection/withdrawal, quantity-aware
+inventory, pre-handover cancellation, two-sided handover/receipt/return actions,
+notifications, inclusive date validation and completed-transaction reviews.
+Paid fee negotiation and provider payment adapter execution remain pending provider
+onboarding; reports/admin remain pending.

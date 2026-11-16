@@ -32,9 +32,10 @@ Use the laptop's current Wi-Fi/LAN address, for example
 `http://192.168.0.106:4000/api/v1`; do not use `localhost` for a physical device.
 Find the current address with `ip -4 addr show wlp2s0` before starting Expo.
 
-Authentication tokens are stored with Expo SecureStore. Public browsing currently
-retains the existing shared sample listings until the listing API response mapping is
-completed; authentication screens use the backend when the API URL is reachable.
+Authentication tokens are stored with Expo SecureStore. Public browsing, listing
+details, listing creation and transaction activity use the backend when the API URL
+is reachable. A small local sample-listing fallback remains in the source for
+development UI previews.
 
 In the output, you'll find options to open the app in a
 
