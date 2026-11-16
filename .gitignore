@@ -34,6 +34,11 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Keep the final evaluation report tracked while leaving working documentation
+# drafts and baseline documents local to the project workspace.
+docs/*.md
+!docs/BorrowBuddy_Final_Project_Report.md
+
 # Local credentials and private keys
 *.pem
 *.key
